@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'lato', 'Lato', sans-serif;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+    width:100%;
+}
+
+/*HEADER AND BACKGROUND IMAGE*/
+    
+header{
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+    position: relative;   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(Barcelona-Spain-iStock-619257048.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    margin: 1.8em 1em;
+    float: right;
+    font-size: 1rem;
+    color: #67a385;
+}
+
+li:hover{
+    border-bottom: 1px solid #F39237;
+    transition: border-bottom 0.6s;
+} 
+ nav {
+    width: 100%;
+    float: right;
+    background-color: #0f0f0f;
+    height: 5rem;
+     border-bottom: 1px solid #ED9B40;
+}
+
+li{
+    color: #000;
+    margin-top: 2rem;
+}
+
+
+h1{
+    font-size: 3rem;
+    color: #FFEEDB;
+    position: absolute;
+    top: 0.5%;
+    left: 4%;
+    font-family: 'Bad Script', cursive;
+    text-shadow: 5px 5px 5px #ED9B40;
+    
+}
+
+h2{
+    font-size: 2.2rem;
+    color: #ED9B40;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.welcome  {
+    border-top: 2px solid #ED9B40;
+    border-bottom: 2px solid #ED9B40;
+    height: 8rem;
+    width: 100%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;   
+}
+
+ h3 {
+     font-size: 1.5rem;
+     color: #000;
+     line-height: 35px;
+    
+}
+
+.booking a {
+    text-decoration: none;
+    color: #CACAAA;
+}
+
+.booking {
+    text-align: center;
+    border: 1px solid #fff;
+    background: #67a385;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    padding: 0;
+}
+
+.intro-box{
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+}
+
